@@ -4,6 +4,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 main{
+    padding-bottom: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
 }
@@ -104,4 +106,37 @@ p{
 }
 .grid-container{
     display: flex;
+}
+.last-sect{
+    display: flex;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+}
+#link{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.option-add{
+    display: flex;
+}
+.rock-st{
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 600px;
+}
+h1{
+    font-size: 30px;
+}
+.lust-st{
+    height: 300px;
+    text-align: center;
+    background-color: rgb(18, 4, 80);
+}
+#rocky{
+    color: white;
+}
+.dot{
+    padding-top: 25px;
 }
