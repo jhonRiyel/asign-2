@@ -3,6 +3,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 .first-head{
     font-style: Bold;
     font-size: 24px;
@@ -34,9 +38,10 @@ body{
 }
 .sec-fat{
     display: flex;
+    margin-bottom: 100px;
 }
 .first-deep{
-    margin-left: 120px;
+    margin-left: 300px;
 }
 .imag-dip{
     margin-top: 70px;
@@ -58,7 +63,45 @@ nav li a{
 }
 img{
     margin-top: 100px;
-    background-image: url(images/shape-3.png);
+    background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.font-chang{
+    font-size: 15px;
+}
+hr{
+    border: 1px solid black;
+    width: 1200px;
+}
+.set-pic{
+    padding-bottom: 25px;
+    text-align: center;
+}
+.main-head{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 200px;
+}
+#colo{
+    color: #FB8200;
+}
+.rev-check{
+    display: flex;
+}
+p{
+    margin-left: 15px;
+}
+.anime-set{
+    margin-right: 50px;
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+}
+.grid-container{
+    display: flex;
 }
